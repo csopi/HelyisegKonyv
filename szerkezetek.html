@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Helyiségkönyv alkalmazás">
+    <meta name="author" content="Balogh István + ...">
+    <link rel="icon" href="img/favicon.ico">
+
+     <title>HelyiségKönyv - szerkezetek</title>
+
+     <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles  -->
+    <link href="css/sajat.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->  
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">HelyiségKönyv</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="szerkezetek.html">Szerkezetek</a></li>
+            <li><a href="anyagok.html">Anyagok</a></li>
+            <li><a href="about.html">Az alkalmazásról</a></li>
+            <li><a href="contact.html">Kapcsolat</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Szerkezetek - példa</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Sorszám</th>
+                <th>A szerkezet neve</th>
+                <th>Mennyiségi egysége</th>
+                <th>Használom?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Válaszfal, 10 cm-es, xy cég 10 cm N+F téglájából, 1 cm-es xy gépi vakolattal, xy anyaggal glettelve, csiszolva és xy festékkel festve</td>
+                <td>m2</td>
+                <td><input type="checkbox"> használom a projekthez</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Beton aljzat, 6 cm-es, helyszíni keverésű betonból, beton C 16-16 KK, léccel lehúzva, vasimítóval simítva</td>
+                <td>m2</td>
+                <td><input type="checkbox"> használom a projekthez</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Burkolás, járólap, xy cég 30 * 30 cm-es járólapjával, xy cég ragasztójával ragasztva, xy cég fugázó anyagával fugázva</td>
+                <td>m2</td>
+                <td><input type="checkbox"> használom a projekthez</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Burkolás, lábazat, 10 cm magasságban, xy cég 30 * 30 cm-es járólapjából, xy cég ragasztójával ragasztva, xy cég fugázó anyagával fugázva</td>
+                <td>fm</td>
+                <td><input type="checkbox"> használom a projekthez</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        <span class="glyphicon glyphicon-plus-sign"></span>
+      </button>
+
+      
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Új szerkezet összeállítása</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                 <colgroup>
+                  <col class="col-md-6" />
+                  <col class="col-md-6" />
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th>Az anyag neve</th>                    
+                    <th>A szerkezethez szükséges mennyisége</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kisméretű tégla</td>
+                    <td>                      
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">db</span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>                    
+                    <td>Víz</td>
+                    <td>                      
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">m3</span>
+                      </div>                      
+                    </td>
+                  </tr>
+                  <tr>                    
+                    <td>Homok</td>
+                    <td>                      
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">m3</span>
+                      </div>                      
+                    </td>
+                  </tr> 
+                  <tr>                    
+                    <td>Beton, C 16-16 KK</td>
+                    <td>                      
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">m3</span>
+                      </div>                      
+                    </td>
+                  </tr>
+                  <tr>                    
+                    <td>120 * 60 cm-es ablak</td>
+                    <td>                      
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">db</span>
+                      </div>                      
+                    </td>
+                  </tr>
+                  <tr>                    
+                    <td>Tölgyfa szegélyléc</td>
+                    <td>                      
+                      <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">fm</span>
+                      </div>                      
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
+              <button type="button" class="btn btn-primary">Szerkezet mentése</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

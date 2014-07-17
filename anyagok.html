@@ -38,6 +38,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+            <li><a href="szerkezetek.html">Szerkezetek</a></li>
             <li class="active"><a href="anyagok.html">Anyagok</a></li>
             <li><a href="about.html">Az alkalmazásról</a></li>
             <li><a href="contact.html">Kapcsolat</a></li>
@@ -85,6 +86,55 @@
             </tbody>
           </table>
         </div>
+      </div>
+
+      <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        <span class="glyphicon glyphicon-plus-sign"></span>
+      </button>
+
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Új anyag </h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-9">
+                  <div class="input-group">
+                    <span class="input-group-addon">Az anyag neve:</span>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="belso-div">
+                    <div class="btn-group">
+                      <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        Mértékegysége <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">m3</a></li>
+                        <li><a href="#">m2</a></li>
+                        <li><a href="#">m</a></li>
+                        <li><a href="#">t</a></li>
+                        <li><a href="#">q</a></li>
+                        <li><a href="#">kg</a></li>
+                        <li><a href="#">db</a></li>
+                        <li><a href="#">fm</a></li>
+                      </ul>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
+              <button type="button" class="btn btn-primary">Anyag mentése</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
 

@@ -2,3 +2,11 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
 }
+
+span.glyphicon {
+    font-size: 1.5em;
+}
+
+.belso-div{
+   padding-top: 10px;
+ }
