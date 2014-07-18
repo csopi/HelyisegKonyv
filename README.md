@@ -13,16 +13,15 @@ például ilyen 1 db kisméretű tégla, 1 m3 víz, 1 db 120 * 60 cm-es ablak, 1
 ### 2. szerkezet:
 1. Egy nagyon lényeges alkotó eleme az alkalmazásnak a szerkezet. Minden egyes szerkezet **anyagokból** áll. Például: 1 m2 10 cm vastag válaszfal az alábbi alkotó elemekből -anyagokból- áll:
 
-* 2 réteg xy cég diszperziós festéke
-* 1 réteg xy cég glettjével glettelés
-* 13 kg xy cég gépi vakolata
-* 8 db xy cég 10 N + F téglája
-* 8,48 kg xy cég falazóhabarcsa
-* 13 kg xy cég gépi vakolata
-* 1 réteg xy cég glettjével glettelés
-* 2 réteg xy cég diszperziós festéke
-	(egyenlőre a munkával nem foglalkozom)
-	
+	* 2 réteg xy cég diszperziós festéke
+	* 1 réteg xy cég glettjével glettelés
+	* 13 kg xy cég gépi vakolata
+	* 8 db xy cég 10 N + F téglája
+	* 8,48 kg xy cég falazóhabarcsa
+	* 13 kg xy cég gépi vakolata
+	* 1 réteg xy cég glettjével glettelés
+	* 2 réteg xy cég diszperziós festéke
+		(egyenlőre a munkával nem foglalkozom)
 2. Kell egy olyan menüpont, ahol előre elkészített szerkezetek lesznek, amiből a felhasználó válogathat, mire lesz szüksége a projekthez. Amire szüksége lesz, azt bejelölheti.
 3. Itt, a szerkezetek alatt természetesen megvan az a lehetőség, hogy új szerkezeteket lehessen az anyagokból összeállítani (a + jelre kattintva).
 
