@@ -35,19 +35,19 @@ például ilyen 1 db kisméretű tégla, 1 m3 víz, 1 db 120 * 60 cm-es ablak, 1
 2. Szerkezetek megadás a helyiségekhez:
 A falak betűrendben vannak megjelölve. A tervet ahogyan szemből nézzük, az az értelmezési szabály, hogy az **a** jelű falszakasz a felső, a **b** jelű a jobb oldali, a **c** jelű az alsó és a **d** jelű a bal oldali falszakasz. (Lásd a mellékelt alaprajzon) Tehát az óramutató haladási irányában vesszük sorra a falakat. A csatolt rajz szerint a nappali 11 m-es homlokzati fala az **a** jelű, a **b** jelű a WC és fürdőszoba irányába eső fal, a **c** jelű a két szoba és az előszoba felé eső fal, és végül a **d** jelű a 4 m-es, balra eső homlokzati határoló fal. 
 A megadható adatok:
-..1. a falszerkezet típusa
-..2. ha nem homlokzati határoló fal, akkor melyik helyiség helyezkedik el a túloldalon. Ezt belső falak esetén kell megadni, hogy a fal ne legyen kétszer számolva
-..3. a fal hossza: ez egyenlő az alapadatoknál megadottal, de felülírható, ekkor az alapadat is felülíródik
-..4. a fal magassága: ez egyenlő az alapadatoknál megadottal, de felülírható, ekkor az alapadat is felülíródik
-..5. mivel belső méretekkel számolunk, ezért a fal bal és jobb oldalán elhelyezkedő csatlakozó falszerkezeteket kell ezek után megadni. Erre azért van szükség, hogy a fal által letakart, vagy sarokban elhelyezkedő szerkezetekkel is számolni lehessen.
-..6. a fal alatt lévő szerkezetet kell megadni, pl. alapozás, vagy koszorú
-..7. a fal felett lévő szerkezetet kell megadni, pl. koszorú
-..8. a fal felett lévő szerkezetet kell megadni, pl. koszorú
-..9. az aljzat típusa a következő pont
-..10. a födém típusa következik
-..11. majd a homlokzati nyílászárók megadása következik, annak a falnak a megadásával ahol elhelyezkednek. Erre azért van szükség, hogy automatikusan kivonódjon a felületük a falból.
-..12. a belső nyílászárókat kell ezek után megadni, azzal kiegészítve, hogy melyik falban helyezkednek el + melyik helyiséggel birtokolják közösen ezt a nyílászárót
-..13. ezek után még extra szerkezeteket is megadhatunk, ilyenek bármikor előfordulhatnak, ezért van ez a lehetőség
+* a falszerkezet típusa
+* ha nem homlokzati határoló fal, akkor melyik helyiség helyezkedik el a túloldalon. Ezt belső falak esetén kell megadni, hogy a fal ne legyen kétszer számolva
+* a fal hossza: ez egyenlő az alapadatoknál megadottal, de felülírható, ekkor az alapadat is felülíródik
+* a fal magassága: ez egyenlő az alapadatoknál megadottal, de felülírható, ekkor az alapadat is felülíródik
+* mivel belső méretekkel számolunk, ezért a fal bal és jobb oldalán elhelyezkedő csatlakozó falszerkezeteket kell ezek után megadni. Erre azért van szükség, hogy a fal által letakart, vagy sarokban elhelyezkedő szerkezetekkel is számolni lehessen.
+* a fal alatt lévő szerkezetet kell megadni, pl. alapozás, vagy koszorú
+* a fal felett lévő szerkezetet kell megadni, pl. koszorú
+* a fal felett lévő szerkezetet kell megadni, pl. koszorú
+* az aljzat típusa a következő pont
+* a födém típusa következik
+* majd a homlokzati nyílászárók megadása következik, annak a falnak a megadásával ahol elhelyezkednek. Erre azért van szükség, hogy automatikusan kivonódjon a felületük a falból.
+* a belső nyílászárókat kell ezek után megadni, azzal kiegészítve, hogy melyik falban helyezkednek el + melyik helyiséggel birtokolják közösen ezt a nyílászárót
+* ezek után még extra szerkezeteket is megadhatunk, ilyenek bármikor előfordulhatnak, ezért van ez a lehetőség
 
 Ez a pont ebben a kialakításban eléggé bonyolult, gondolkozom az egyszerűsítésen. Várom a javaslatokat. 
 
