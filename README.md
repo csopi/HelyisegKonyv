@@ -25,16 +25,20 @@ például ilyen 1 db kisméretű tégla, 1 m3 víz, 1 db 120 * 60 cm-es ablak, 1
 2. Kell egy olyan menüpont, ahol előre elkészített szerkezetek lesznek, amiből a felhasználó válogathat, mire lesz szüksége a projekthez. Amire szüksége lesz, azt bejelölheti.
 3. Itt, a szerkezetek alatt természetesen megvan az a lehetőség, hogy új szerkezeteket lehessen az anyagokból összeállítani (a + jelre kattintva).
 
-### 3. helyiségek:
-1. Alapadatok rögzítése:
-	* a helyiség neve
+### 3. projektek:
+1. Mik ezek a projektek? Nézzünk egy-két példát:
+	* egyszerű esettel kezdem, családi ház: első lépésként létrehozzuk a projektet, megadjuk a projekt nevének például azt, hogy **"Családi ház, 8200 Veszprém, Egyik u. 1."**. Ez a családi ház 2 szintes, tehát a szinteket adjuk meg ezek után, például úgy mint földszint és tetőtér. Ezek után már nincsen más dolgom mint az egyes szintek alá "befűzzük" a helyiségeket, amit a 3. pontban részleteztem. Készen is van a projekt, igazából ez egy hierarchikus fa szerkezet. A gyökér a projekt, azaz a családi ház, ebből elágazik két ág, ezek a szintek, majd ezeken az ágakon mint a levelek helyezkednek el a helyiségek.
+	* másik példaként irodaházat mutatok be: ez esetben is a projektnek adok egy nevet, **"Iroda épület, 8200 Veszprém, Másik u. 123."**. Ezek után megadom a szinteket, a pinceszinttől a 4. emeletig, összesen 6 szintet. Ezek után a szintekhez adom az ott elhelyezkedő helyiségeket.
+	* harmadik példaként egy nagyon bonyolult épületet vázolok fel, ábra nélkül: képzeljünk el egy olyan épületet, például szállodát ahol még szintenként is funkciók szerint tovább bontjuk a funkciók szerint az épületet. Ekkor a hierarchikus fa szerkezet is sokkal több szintes lesz, jóval bonyolultabb lesz, de a levelek ebben az esetben is a helyiségek.
+2. A projekt létrehozása után a nevére kattintva jutunk a projekt összefoglaló oldalra. Itt lehet kialakítani a hierarchia szinteket, amit az első pontban részleteztem.
+3. Itt az összefoglaló oldalon látható az egész alkalmazás célja: **a szerkezetek és az anyagok végső összesítése**. Az adatok gombnyomásra exportálhatóak.
+4. A helyiségeket összefoglaló, a helyiségek előtt található hierarchia szinteket megjelenítő gombokra kattintva lehet az egyes helyiségek tulajdonságait és szerkezeteit megadni. Ezek az alábbiak:
 	* alapterülete - ez alap esetben kalkulált adat a szélesség * hosszúság adatokból, felülírható
 	* szélessége
 	* hosszúsága
 	* belmagassága
-
-2. Szerkezetek megadás a helyiségekhez:
-A falak betűrendben vannak megjelölve. A tervet ahogyan szemből nézzük, az az értelmezési szabály, hogy az **a** jelű falszakasz a felső, a **b** jelű a jobb oldali, a **c** jelű az alsó és a **d** jelű a bal oldali falszakasz. (Lásd a mellékelt alaprajzon) Tehát az óramutató haladási irányában vesszük sorra a falakat. A csatolt rajz szerint a nappali 11 m-es homlokzati fala az **a** jelű, a **b** jelű a WC és fürdőszoba irányába eső fal, a **c** jelű a két szoba és az előszoba felé eső fal, és végül a **d** jelű a 4 m-es, balra eső homlokzati határoló fal. 
+A helyiségekhez szerkezetet a helyiség sorában lévő + gombra kattintva lehet megadni. a szerkezet megadás szabályai:
+a falak betűrendben vannak megjelölve. A tervet ahogyan szemből nézzük, az az értelmezési szabály, hogy az **a** jelű falszakasz a felső, a **b** jelű a jobb oldali, a **c** jelű az alsó és a **d** jelű a bal oldali falszakasz. (Lásd a mellékelt alaprajzon) Tehát az óramutató haladási irányában vesszük sorra a falakat. A csatolt rajz szerint a nappali 11 m-es homlokzati fala az **a** jelű, a **b** jelű a WC és fürdőszoba irányába eső fal, a **c** jelű a két szoba és az előszoba felé eső fal, és végül a **d** jelű a 4 m-es, balra eső homlokzati határoló fal. 
 A megadható adatok:
 	* a falszerkezet típusa
 	* ha nem homlokzati határoló fal, akkor melyik helyiség helyezkedik el a túloldalon. Ezt belső falak esetén kell megadni, hogy a fal ne legyen kétszer számolva
@@ -52,10 +56,14 @@ A megadható adatok:
 
 	Ez a pont ebben a kialakításban eléggé bonyolult, gondolkozom az egyszerűsítésen. Várom a javaslatokat. 
 
+A helyiségekhez már megadott szerkezetek megtekintése: a helyiség nevét viselő gombra kattintva megtekinthető.
+További helyiség a + gombra kattintva vihető fel.
+Az oldalon alul helyezkedik el a szintek szerkezetinek és anyagainak összesítője.
 
-3. A helyiségekhez már megadott szerkezetek megtekintése: a helyiség nevét viselő gombra kattintva megtekinthető
+Visszalépni a projekthez az oldal tetején a kék színű projekt névre kattintva lehet. 
 
-4. További helyiség a + gombra kattintva vihető fel.
+### 4. egyeb megjegyzések:
+Az alkalmazás mobil eszközön is használható kialakításban készült.
 
 
 ## Készítik:
