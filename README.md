@@ -27,7 +27,7 @@ például ilyen 1 db kisméretű tégla, 1 m3 víz, 1 db 120 * 60 cm-es ablak, 1
 
 ### 3. projektek:
 1. Mik ezek a projektek? Nézzünk egy-két példát:
-	* egyszerű esettel kezdem, családi ház: első lépésként létrehozzuk a projektet, megadjuk a projekt nevének például azt, hogy **"Családi ház, 8200 Veszprém, Egyik u. 1."**. Ez a családi ház 2 szintes, tehát a szinteket adjuk meg ezek után, például úgy mint földszint és tetőtér. Ezek után már nincsen más dolgom mint az egyes szintek alá "befűzzük" a helyiségeket, amit a 3. pontban részleteztem. Készen is van a projekt, igazából ez egy hierarchikus fa szerkezet. A gyökér a projekt, azaz a családi ház, ebből elágazik két ág, ezek a szintek, majd ezeken az ágakon mint a levelek helyezkednek el a helyiségek.
+	* egyszerű esettel kezdem, családi ház: első lépésként létrehozzuk a projektet, megadjuk a projekt nevének például azt, hogy **"Családi ház, 8200 Veszprém, Egyik u. 1."**. Ez a családi ház 2 szintes, tehát a szinteket adjuk meg ezek után, például úgy, mint földszint és tetőtér. Ezek után már nincsen más dolgom, mint az egyes szintek alá "befűzzük" a helyiségeket, amit a 3. pontban részleteztem. Készen is van a projekt, igazából ez egy hierarchikus fa szerkezet. A gyökér a projekt, azaz a családi ház, ebből elágazik két ág, ezek a szintek, majd ezeken az ágakon, mint a levelek helyezkednek el a helyiségek.
 	* másik példaként irodaházat mutatok be: ez esetben is a projektnek adok egy nevet, **"Iroda épület, 8200 Veszprém, Másik u. 123."**. Ezek után megadom a szinteket, a pinceszinttől a 4. emeletig, összesen 6 szintet. Ezek után a szintekhez adom az ott elhelyezkedő helyiségeket.
 	* harmadik példaként egy nagyon bonyolult épületet vázolok fel, ábra nélkül: képzeljünk el egy olyan épületet, például szállodát ahol még szintenként is funkciók szerint tovább bontjuk a funkciók szerint az épületet. Ekkor a hierarchikus fa szerkezet is sokkal több szintes lesz, jóval bonyolultabb lesz, de a levelek ebben az esetben is a helyiségek.
 2. A projekt létrehozása után a nevére kattintva jutunk a projekt összefoglaló oldalra. Itt lehet kialakítani a hierarchia szinteket, amit az első pontban részleteztem.
@@ -62,7 +62,7 @@ Az oldalon alul helyezkedik el a szintek szerkezetinek és anyagainak összesít
 
 Visszalépni a projekthez az oldal tetején a kék színű projekt névre kattintva lehet. 
 
-### 4. egyeb megjegyzések:
+### 4. egyéb megjegyzések:
 Az alkalmazás mobil eszközön is használható kialakításban készült.
 
 
