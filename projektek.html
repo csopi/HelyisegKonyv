@@ -49,7 +49,7 @@
     </div>
 
     <div class="container">
-
+      
       <div class="page-header">
         <h1>Projektek - példa</h1>
       </div>
@@ -80,7 +80,6 @@
         <span class="glyphicon glyphicon-plus-sign"></span>
       </button>
 
-      
       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -99,13 +98,18 @@
               </div>
               <div class="belso-div">
               </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
-              <button type="button" class="btn btn-primary">Projekt mentése</button>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Bezárás</button>
+                <button type="button" class="btn btn-primary">Projekt mentése</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="belso-div">
+      </div>    
+      <button type="button" class="btn btn-lg btn-danger popover-dismiss" data-toggle="popover" title="Projekteket kezelni" data-content="Ezen az oldalon lehet projekteket létrehozni, átnevezni vagy törölni. Ilyen egyszerű. Figyelem, az oldalon fix adatok vannak egyenlőre, csak a funkció bemutatására szolgál, egyenlőre nem használható! Az egyes projektek kék színű nevére kattintva lehet a kezelő oldalukra jutni.">Segítség! Mit lehet ezen az oldalon csinálni?  </button>
 
     </div>
 
@@ -113,5 +117,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.popover-dismiss').popover({
+          trigger: 'focus'
+        });
+    </script>
   </body>
 </html>

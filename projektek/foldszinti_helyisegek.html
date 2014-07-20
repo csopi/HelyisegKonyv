@@ -57,6 +57,9 @@
       <div class="page-header">
         <h2><a href="1.html">Családi ház, 8200 Veszprém, Egyik u. 1.</a></h2>
         <h3>A földszinti helyiségek - az alsó alaprajz szerint</h3>
+        <div class="belso-div">
+        </div>    
+        <button type="button" class="btn btn-lg btn-danger popover-dismiss" data-toggle="popover" title="A helyiségek láthatóak" data-content="A helyiség nevét viselő gombra kattintva lehet megnézni milyen szerkezetek vannak eddig a helyiséghez rendelve. A helyiség sorában lévő + gombra klikkelve lehet a szerkezeteket a helyiséghez rendelni. Ez a rész egy kicsit bonyolult, egyszerűsítésre várom a javaslatokat! Hogy mit értek a, b, c és d jelű falakon az az alsó alaprajzon jól látható. Természetesen 'élőben' az oldal alsó részén látható az ezen helyisgekhez tartozó szerkezetek és anyagok összesítése. A projekthez visszalépni itt fent a kék színű projektnévre kattintva lehet.">Segítség! Mi ez itt?</button>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -992,6 +995,9 @@
           });
           $("button.btn.btn-primary").tooltip({
               placement : 'right'
+          });
+          $('.popover-dismiss').popover({
+          trigger: 'focus'
           });
       });
     </script>

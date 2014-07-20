@@ -184,11 +184,20 @@
         </div>
       </div>
 
+      <div class="belso-div">
+      </div>    
+      <button type="button" class="btn btn-lg btn-danger popover-dismiss" data-toggle="popover" title="Itt lehet a szerkezeteket létrehozni" data-content="Az anyag oldalon felvitt anyagokból lehet ezen az oldalon a szerkezeteket létrehozni.(Most még nem működik, csak demo célokat szolgál az oldal!)">Segítség! Mit lehet ezen az oldalon csinálni?  </button>
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.popover-dismiss').popover({
+          trigger: 'focus'
+        });
+    </script>
   </body>
 </html>

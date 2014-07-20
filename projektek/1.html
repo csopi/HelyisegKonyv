@@ -56,6 +56,9 @@
 
       <div class="page-header">
         <h1>Családi ház, 8200 Veszprém, Egyik u. 1. - projekt összefoglaló</h1>
+        <div class="belso-div">
+        </div>    
+        <button type="button" class="btn btn-lg btn-danger popover-dismiss" data-toggle="popover" title="Itt a kiválasztott projekt látható" data-content="Az oldal felső részén lehet a hierarchia szinteket beállítani, tehát azt, hogy a konkrét projekt milyen felosztásban lesz szétszedve egyes elemeire. A melléklet képes is jól látszik ez. Az oldal alsó részén pedig a teljes projekt kimutatásai láthatóak, szerkezetekre és anyagokra bontva. Az egyes helyiségek szintenkénti adatait az aktív gombokra kattintva lehet szerkeszteni. Ez esetben a 'a földszint elemei' és a 'a tetőtér elemei' gombokra klikkelve.">Segítség! Mi ez itt?</button>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -239,6 +242,9 @@
           });
           $("button.btn.btn-primary").tooltip({
               placement : 'right'
+          });
+          $('.popover-dismiss').popover({
+          trigger: 'focus'
           });
       });
     </script>
